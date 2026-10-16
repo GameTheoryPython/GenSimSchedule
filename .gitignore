@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local project backup files and test caches
+*.gss.json.bak
+.test-artifacts/
+
+# pycharm
+.idea/

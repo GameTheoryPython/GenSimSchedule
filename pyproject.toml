@@ -1,0 +1,39 @@
+[project]
+name = "gensimschedule"
+version = "0.1.0"
+description = "Editable reservoir production schedules with CLI and PySide6 desktop UI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pyside6>=6.12.0",
+]
+
+[project.scripts]
+gensimschedule = "gensimschedule.cli:main"
+gensimschedule-gui = "gensimschedule.gui:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gensimschedule"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/examples", "/scripts/benchmark_schedule.py",
+           "/docs", "/README.md", "/design_details.md", "/pyproject.toml", "/uv.lock"]
+exclude = ["*.bak", "__pycache__", "*.pyc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--basetemp=.test-artifacts/pytest-tmp"
+cache_dir = ".test-artifacts/pytest-cache"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+

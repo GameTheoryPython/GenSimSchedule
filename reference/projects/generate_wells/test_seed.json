@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "name": "test_seed",
+  "units": "METRIC",
+  "start": "2017-01-01",
+  "end": "2026-12-31",
+  "wells": [
+    {
+      "name": "WELL_2",
+      "nodes": [
+        {
+          "date": "2017-01-01",
+          "rate": 438.102069,
+          "id": "49d0bab8cd8c426c9901c3be9ad23403",
+          "type": null,
+          "seed": null
+        },
+        {
+          "date": "2019-01-01",
+          "rate": 863.9426798457883,
+          "id": "bdc9e9922ce54357a2dbc524b45d34b0",
+          "type": null,
+          "seed": 42
+        },
+        {
+          "date": "2022-01-01",
+          "rate": 863.9426798457883,
+          "id": "5a861b0e72404c489628ed7c4d20e0f0",
+          "type": null,
+          "seed": 42
+        },
+        {
+          "date": "2025-01-01",
+          "rate": 540.8535879254493,
+          "id": "8f7897513e144d209934b20c6a5f1837",
+          "type": null,
+          "seed": 44
+        },
+        {
+          "date": "2026-12-31",
+          "rate": 403.855183933738,
+          "id": "7195b784360e4ac0a96846691501e446",
+          "type": null,
+          "seed": 43
+        }
+      ],
+      "segments": [
+        {
+          "start_node_id": "49d0bab8cd8c426c9901c3be9ad23403",
+          "end_node_id": "bdc9e9922ce54357a2dbc524b45d34b0",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "bdc9e9922ce54357a2dbc524b45d34b0",
+          "end_node_id": "5a861b0e72404c489628ed7c4d20e0f0",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "5a861b0e72404c489628ed7c4d20e0f0",
+          "end_node_id": "8f7897513e144d209934b20c6a5f1837",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "8f7897513e144d209934b20c6a5f1837",
+          "end_node_id": "7195b784360e4ac0a96846691501e446",
+          "method": "linear",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        }
+      ],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_7",
+      "nodes": [
+        {
+          "date": "2017-01-01",
+          "rate": 423.071918631,
+          "id": "a125de635d124635bf7cbb7f7d87a444",
+          "type": null,
+          "seed": null
+        },
+        {
+          "date": "2019-01-01",
+          "rate": 802.5010755222667,
+          "id": "6d4ab3b4bd364a99afacbfc86023cf37",
+          "type": null,
+          "seed": 42
+        },
+        {
+          "date": "2022-01-01",
+          "rate": 802.5010755222667,
+          "id": "228f190a622c41829f3250fe6aa51fc9",
+          "type": null,
+          "seed": 42
+        },
+        {
+          "date": "2024-11-01",
+          "rate": 0.0,
+          "id": "82af0af765074e00a3e0665f758e4271",
+          "type": null,
+          "seed": null
+        },
+        {
+          "date": "2025-01-01",
+          "rate": 600.0,
+          "id": "537c6ca4282a48cba45222f3e07d47c1",
+          "type": "injector",
+          "seed": null
+        },
+        {
+          "date": "2026-12-31",
+          "rate": 620.0,
+          "id": "7452fe59f51b4afe864b548bc3432f36",
+          "type": null,
+          "seed": null
+        }
+      ],
+      "segments": [
+        {
+          "start_node_id": "a125de635d124635bf7cbb7f7d87a444",
+          "end_node_id": "6d4ab3b4bd364a99afacbfc86023cf37",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "6d4ab3b4bd364a99afacbfc86023cf37",
+          "end_node_id": "228f190a622c41829f3250fe6aa51fc9",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "228f190a622c41829f3250fe6aa51fc9",
+          "end_node_id": "82af0af765074e00a3e0665f758e4271",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "537c6ca4282a48cba45222f3e07d47c1",
+          "end_node_id": "7452fe59f51b4afe864b548bc3432f36",
+          "method": "linear",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        }
+      ],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_14",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_16",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_17",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_19",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_23",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_34",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_35",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_44",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_47",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_48",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_50",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_55",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_70",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_71",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_73",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_74",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_77",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_80",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_95",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    },
+    {
+      "name": "WELL_96",
+      "nodes": [],
+      "segments": [],
+      "type": "producer"
+    }
+  ],
+  "export": {
+    "frequency": "monthly",
+    "interval": 1,
+    "month_end": false,
+    "keep_nodes": true,
+    "mode": "prediction",
+    "split_date": null,
+    "units": "METRIC",
+    "injection_bhp": null,
+    "injection_thp": null
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "name": "Untitled",
+  "units": "METRIC",
+  "start": "2000-01-01",
+  "end": "2025-01-01",
+  "wells": [
+    {
+      "name": "WELL_2",
+      "type": "producer",
+      "nodes": [
+        {
+          "date": "2000-01-01",
+          "rate": 999,
+          "id": "720a89dd025b496187c365d62e8faafd"
+        },
+        {
+          "date": "2003-01-01",
+          "rate": 535.069929348,
+          "id": "5886e481d9c74d03b56a536c823fb4e8"
+        },
+        {
+          "date": "2008-01-01",
+          "rate": 551.917103951,
+          "id": "9ae6fa6487f64c1091ad584d582e3a3b"
+        },
+        {
+          "date": "2020-01-01",
+          "rate": 440.0,
+          "id": "5183fbe8c4a242f3909ff6f7625b95cc"
+        },
+        {
+          "date": "2025-01-01",
+          "rate": 420.0,
+          "id": "96fb91936c5b4b69987a781967cfd845"
+        }
+      ],
+      "segments": [
+        {
+          "start_node_id": "720a89dd025b496187c365d62e8faafd",
+          "end_node_id": "5886e481d9c74d03b56a536c823fb4e8",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "5886e481d9c74d03b56a536c823fb4e8",
+          "end_node_id": "9ae6fa6487f64c1091ad584d582e3a3b",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "9ae6fa6487f64c1091ad584d582e3a3b",
+          "end_node_id": "5183fbe8c4a242f3909ff6f7625b95cc",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "5183fbe8c4a242f3909ff6f7625b95cc",
+          "end_node_id": "96fb91936c5b4b69987a781967cfd845",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        }
+      ]
+    },
+    {
+      "name": "WELL_3",
+      "type": "producer",
+      "nodes": [
+        {
+          "date": "2000-01-01",
+          "rate": 347.3805022321452,
+          "id": "a32d5d14a6064eae8b2822ae2dd1cafe"
+        },
+        {
+          "date": "2003-01-01",
+          "rate": 503.0486642899006,
+          "id": "2996dea3d2eb490f9b462fb2a3fe796f"
+        },
+        {
+          "date": "2008-01-01",
+          "rate": 500.599986626,
+          "id": "b4a088cf15344cf9b70bf4fc0b53cd2b"
+        },
+        {
+          "date": "2020-01-01",
+          "rate": 415.0,
+          "id": "3fe5c282e4cd4242a236f22880c9c73c"
+        },
+        {
+          "date": "2025-01-01",
+          "rate": 400.292447678,
+          "id": "222a4768bfb54683bca7a4462d48683e"
+        }
+      ],
+      "segments": [
+        {
+          "start_node_id": "a32d5d14a6064eae8b2822ae2dd1cafe",
+          "end_node_id": "2996dea3d2eb490f9b462fb2a3fe796f",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "2996dea3d2eb490f9b462fb2a3fe796f",
+          "end_node_id": "b4a088cf15344cf9b70bf4fc0b53cd2b",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "b4a088cf15344cf9b70bf4fc0b53cd2b",
+          "end_node_id": "3fe5c282e4cd4242a236f22880c9c73c",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "3fe5c282e4cd4242a236f22880c9c73c",
+          "end_node_id": "222a4768bfb54683bca7a4462d48683e",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        }
+      ]
+    },
+    {
+      "name": "WELL_5",
+      "type": "producer",
+      "nodes": [
+        {
+          "date": "2000-01-01",
+          "rate": 384.583691336406,
+          "id": "ff41e823d0aa4bd79b78205aad09265f"
+        },
+        {
+          "date": "2003-01-01",
+          "rate": 595.2817411168468,
+          "id": "54c591e5a1524662a6276e44f5d179f9"
+        },
+        {
+          "date": "2008-01-01",
+          "rate": 614.362321261,
+          "id": "c94a07ba56ba4c32b90b49eeda5d52ad"
+        },
+        {
+          "date": "2020-01-01",
+          "rate": 445.0,
+          "id": "5d36323478684f73a6e131710e987f02"
+        },
+        {
+          "date": "2025-01-01",
+          "rate": 422.1103829305909,
+          "id": "96cae91d6dae45a283feb903607397f5"
+        }
+      ],
+      "segments": [
+        {
+          "start_node_id": "ff41e823d0aa4bd79b78205aad09265f",
+          "end_node_id": "54c591e5a1524662a6276e44f5d179f9",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "54c591e5a1524662a6276e44f5d179f9",
+          "end_node_id": "c94a07ba56ba4c32b90b49eeda5d52ad",
+          "method": "linear",
+          "b": 0.5,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "c94a07ba56ba4c32b90b49eeda5d52ad",
+          "end_node_id": "5d36323478684f73a6e131710e987f02",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        },
+        {
+          "start_node_id": "5d36323478684f73a6e131710e987f02",
+          "end_node_id": "96cae91d6dae45a283feb903607397f5",
+          "method": "arps",
+          "b": 1.0,
+          "noise": 0.0,
+          "seed": null
+        }
+      ]
+    }
+  ],
+  "export": {
+    "frequency": "monthly",
+    "interval": 1,
+    "month_end": false,
+    "keep_nodes": true,
+    "mode": "prediction",
+    "split_date": null,
+    "units": "METRIC",
+    "injection_bhp": null,
+    "injection_thp": null
+  }
+}
